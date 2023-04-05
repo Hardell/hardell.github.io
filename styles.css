@@ -1,0 +1,31 @@
+/*
+ * Custom CSS
+ */
+
+:root {
+  --bs-body-bg: var(--bs-gray-100);
+}
+
+body {
+  font-family: 'Montserrat';
+  font-size: 17px;
+  background-color: rgb(21, 21, 21);
+}
+
+@media (min-width: 1200px) {
+  .container{
+      max-width: 1000px;
+  }
+  .container-lg{
+      max-width: 1000px;
+  }
+}
+
+#photo-container {
+  padding: 0;
+}
+
+.container-lg {
+  padding-left: 4%;
+  padding-right: 4%;
+}
