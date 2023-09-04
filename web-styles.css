@@ -27,6 +27,7 @@
     font-weight: bold;
     cursor: pointer;
 }
+
 /* Media query for smaller screens */
 @media (max-width: 850px) {
     #main-buttons button {
@@ -67,4 +68,63 @@
     text-align: center;
     color: #fff;
     /* position-absolute top-50 start-50 translate-middle  */
+}
+
+#tile {
+    height: 100vh;
+    background-color: #1f1e1e;
+    /* background-image: url('https://cdn.discordapp.com/attachments/1053303866738888776/1148372743214088212/moarpizzapls_Carbon_texture._Minimalistic._88cdb1c2-b07a-4cdc-a5e8-932b082a802d.png'); */
+    background-repeat: repeat;
+    background-size: 750px;
+}
+
+#shows {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%; /* Adjust the left position as needed */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 650px) {
+    #shows {
+        width: 80%;
+    }
+}
+
+#shows hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.date {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.support {
+    color: rgb(159, 159, 159);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ticket-buttons {
+    align-items: center;
+}
+
+.ticket-buttons button {
+    border-radius: 6px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
 }
