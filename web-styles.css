@@ -10,6 +10,10 @@ html {
     z-index: 1000; /* Ensure the navbar is on top of other content */
 }
 
+.nav-link, .navbar-brand {
+    color: white;
+}
+
 #main-buttons {
     position: absolute;
     top: 40%;
