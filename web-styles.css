@@ -12,6 +12,7 @@ html {
 
 .nav-link, .navbar-brand {
     color: white;
+    font-size: 1.3em;
 }
 
 #main-buttons {
