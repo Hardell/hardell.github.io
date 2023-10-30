@@ -2,6 +2,25 @@ html {
     scroll-behavior:smooth
 }
 
+/* Media query for smaller screens */
+@media (min-aspect-ratio: 3/4) {
+    #artwork-vertical {
+        display: none;
+    }
+}@media (aspect-ratio: 3/4) {
+    #artwork-horizontal {
+        display: inherit !important;
+    }
+}
+@media (max-aspect-ratio: 3/4) {
+    #artwork-horizontal {
+        display: none;
+    }
+}
+#artwork-vertical {
+    
+}
+
 .navbar-fixed {
     background-color: transparent;
     position: absolute;
