@@ -1,3 +1,3 @@
-//
-// Place any custom JS here
-//
+$('#pastShows').on('shown.bs.collapse', function () {
+    this.scrollIntoView();
+});

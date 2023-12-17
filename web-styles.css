@@ -34,6 +34,17 @@ html {
     cursor: pointer;
 }
 
+#pastShowsButton {
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
+    background-color: #ffffff00;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 25px;
+    cursor: pointer;
+}
+
 .max-height-image-container {
     max-height: 120vh; /* Adjust the max height as needed */
     width: 100%;
