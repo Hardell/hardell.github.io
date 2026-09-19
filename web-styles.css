@@ -15,6 +15,18 @@ html {
     font-size: 1.3em;
 }
 
+@media (max-width: 767.98px) {
+    .navbar-collapse {
+        background-color: rgba(21, 21, 21, 0.95);
+        border-radius: 8px;
+        padding: 0.5rem 1rem;
+        margin-top: 0.5rem;
+    }
+    .nav-link, .navbar-brand {
+        font-size: 1.1em;
+    }
+}
+
 #main-buttons {
     position: absolute;
     top: 67%;
